@@ -1,1 +1,8 @@
-def greet(name):`n    return "Hello, " + name`n`ndef farewell(name):`n    return "Goodbye, " + name`n`nprint(greet("World"))`nprint(farewell("World"))
+def greet(name):
+    return f"Hello, {name}"
+
+def farewell(name):
+    return f"Goodbye, {name}"
+
+print(greet("World"))
+print(farewell("World"))
